@@ -1,4 +1,4 @@
-Console.Write("Enter Grade: ");
+Console.Write("Enter grade: ");
 int grade = int.Parse(Console.ReadLine());
 
 string result = (grade > 50) ? "Passed" : "Failed";
